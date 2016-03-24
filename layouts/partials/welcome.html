@@ -1,0 +1,26 @@
+<!-- Make a card view for posts -->
+<div class="mdl-card mdl-cell mdl-cell--8-col mdl-shadow--6dp">
+
+    <!-- card title -->
+    <div class="mdl-card__media mdl-color-text--grey-50">
+        <h3>Bem vindo ao DevMT</h3>
+    </div>
+
+    <!-- Snippet of post -->
+    <div class="mdl-card__supporting-text mdl-color-text--grey-600">
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tempor arcu, quis hendrerit nunc accumsan quis. In ut dolor metus, eget viverra odio. Quisque sed suscipit leo. Curabitur dictum magna ut turpis interdum a mollis nunc condimentum. Praesent leo est, hendreriteget condimentum sit amet, placerat adipiscing neque. Curabitur id metus tellus, sed semper odio. Phasellus id justo ante, vel bibendum eros. Nulla suscipit felis eget erat iaculis et aliquam turpis consequat. Nunc posuere mollis tellus sit amet dapibus. Praesent sagittis quam sit amet mauris venenatis in dignissim purus dapibus.
+    </div>
+
+    <!-- Author and Date -->
+    <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+        <!-- author's profile pic 
+        {{with .Params.author.image}}<div class="minilogo" style="background-image: url('{{.}}');"></div>{{end}}
+        <div>
+            <strong><a href="{{ .Params.author.website }}">{{ .Params.author.name }}</a></strong>
+            <span>{{ .Date.Format "Jan 2, 2006" }}</span>
+        </div>
+        -->        
+        {{ partial "socialbtns.html" . }}
+    </div>
+
+</div>

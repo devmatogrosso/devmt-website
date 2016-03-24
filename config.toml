@@ -1,0 +1,21 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "pt-br"
+title = "DevMT - Comunidade de Desenvolvedores de Mato Grosso"
+theme = "HugoMDL"
+MetaDataFormat = "yaml"
+[permalinks]
+	page = "/:title/"
+	about = "/:filename/"
+    support = "/:support/"
+[params]
+    name = "DevMT"
+    description = "Comunidade de Desenvolvedores de Mato Grosso" #meta description
+    image = "/images/avatar-192x210.png" #for frontpage profile card
+    website = "devmt.com"
+    email = "devmt@gmail.com"
+    twitter = "https://twitter.com/devmatogrosso/"
+    github = "https://github.com/devmatogrosso/"
+    facebook = "https://facebook.com/devmatogrosso/"
+    slack = "http://devmt.herokuapp.com"
+    copyrightyear = "2016"
+    frontpageposts = 6 #number of post cards to display on frontpage
