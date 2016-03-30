@@ -1,23 +1,19 @@
 ---
-title: "Amazing Post"
-description: "Second post with Hugo website engine"
-date: "2015-08-19"
+title: "Meetup React Native"
+description: "Meetup realizado no Coworking Escritório+"
+date: "2016-10-04"
 categories:
     - "post"
 tags:
     - "meta"
-    - "test"
-#cardimagelg: "/images/default.jpg"
-#cardimagesm: "/images/default.jpg"
-cardbackground: "#954351" #optional: overwrites default #263238, only shows when no image specified.
+    - "post"
+#cardthumbimage: "/images/default.jpg" #optional: solid color if unset
+cardheaderimage: "/images/default.jpg" #optional: solid color if unset
+cardbackground: "#263238" #optional: card background color; only shows when no image specified
+cardtitlecolor: "#ffffff" #optional: can be changed to make text visible over card image
 "author":
-    name: "Firstname Lastname"
-    description: "Writer of stuff"
-    website: "http://example.com/"
-    email: "firstname@example.com"
-    twitter: "https://twitter.com/"
-    github: "https://github.com/"
-    image: "/images/avatar-64x64.png"
+    name: "Alvaro Viebrantz"    
+#    image: "/images/avatar-64x64.png"
 ---
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
