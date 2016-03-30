@@ -2,3 +2,7 @@
 	path = public
 	url = git@github.com:devmatogrosso/devmatogrosso.github.io.git
 	branch = master
+[submodule "HugoMDL"]
+	path = themes/HugoMDL
+	url = git@github.com:jchatkinson/HugoMDL.git
+	branch = master
