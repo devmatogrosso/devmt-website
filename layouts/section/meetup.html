@@ -1,9 +1,33 @@
-{{ partial "header.html" . }} 
+{{ partial "header.html" . }}
+<div class="hugo-blog__posts mdl-grid">
+    <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+        <div class="mdl-card__media mdl-color-text--grey-50" style="background-image: url('/images/default.jpg');">
+            <h3>
+            	Meetups do DevMT 
+            </h3>
+        </div>
+        <div class="mdl-color-text--grey-700 mdl-card__supporting-text hugo-content card-content-fix">
+            <p>Estamos utilizando a plataforma <a href="meetup.com/DevMatoGrosso">meetup.com</a> para a organização de cada edição e controle dos participantes. Na plataforma é definido o tema do meetup, local e quantidade de participantes. Caso um participante desista de comparecer ao evento e solicitar o cancelamento da sua inscrição, uma nova vaga será aberta, assim dando oportunidade para outra pessoa.</p>
 
+            <h4>Cadastre-se já no <a href="meetup.com/DevMatoGrosso">Meetup DevMT</a> </h4>
+        </div>
+    </div>
+</div>
 <div class="hugo-blog__list mdl-grid">
-    {{ range .Data.Pages }} 
-      <!-- Responsive Cards for each meetup -->
-      {{ if eq .Type "meetup" }}{{ .Render "meetup-card" }} {{ end }} 
-    {{ end }}
+    {{ range .Data.Pages }}
+    <!-- Responsive Cards for each meetup -->
+    {{ if eq .Type "meetup" }}{{ .Render "meetup-card" }} {{ end }} {{ end }}
+</div>
+<div class="hugo-blog__posts mdl-grid">
+    <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">        
+        <div class="mdl-color-text--grey-700 mdl-card__supporting-text hugo-content card-content-fix">
+            <h3>Observação</h3> 
+            <p>Gostariamos que em cada evento o ambiente seja de troca de informações, assim como cada um que vai apresentar o tema em questão gosta de falar, certamente ele também gosta de escutar a experiência e conhecimento de todos participantes, assim como todos os demais. Não fique acanhado, compartilhe conhecimento com a comunidade. Não temos bandeira de tecnologia, queremos proporcionar um ambiente para todas as áreas. </p>
+            <h3>Quer falar sobre algum assunto ? </h3>
+            <p>Por favor <a href="https://github.com/devmatogrosso/submit">submeta</a> para nosso repositório. 
+            <h3>Comes e Bebes.</h3>
+            <p>Esta é uma parte importante, no nosso primeiro meetup fomos patrocinados pelo High5Devs.com, porém não é sempre que temos o patrocinio. Mas sempre que for possivel vamos avisar a todos. Mas caso alguem tenha interesse em levar alguma bebida ou comida, lembre-se! Além de ser seu, ela será compartilhada para os demais, com bom senso.</p>
+        </div>
+    </div>
 </div>
 {{ partial "footer.html" . }}

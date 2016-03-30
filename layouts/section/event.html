@@ -1,5 +1,14 @@
 {{ partial "header.html" . }} 
-
+<div class="hugo-blog__posts mdl-grid">
+    <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+        <div class="mdl-card__media mdl-color-text--grey-50" style="background-image: url('/images/default.jpg');">
+            <h3>
+            	Eventos organizados pelo DevMT
+            </h3>
+        </div>
+        <div class="mdl-color-text--grey-700 mdl-card__supporting-text hugo-content card-content-fix"></div>
+    </div>
+</div>
 <div class="hugo-blog__list mdl-grid">
     {{ range .Data.Pages }} 
       <!-- Responsive Cards for each project -->
