@@ -6,3 +6,8 @@ body::before{
 body{
   background-color: rgba(211,84,0,1);
 }
+
+.card-content-fix{
+	display: inline !important;
+	width: 98% !important;
+}
