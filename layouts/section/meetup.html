@@ -2,8 +2,8 @@
 
 <div class="hugo-blog__list mdl-grid">
     {{ range .Data.Pages }} 
-      <!-- Responsive Cards for each project -->
-      {{ if eq .Type "project" }}{{ .Render "project-card" }} {{ end }} 
+      <!-- Responsive Cards for each meetup -->
+      {{ if eq .Type "meetup" }}{{ .Render "meetup-card" }} {{ end }} 
     {{ end }}
 </div>
 {{ partial "footer.html" . }}
