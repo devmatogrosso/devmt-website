@@ -1,4 +1,4 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://devmt.com.br/"
 languageCode = "pt-br"
 title = "DevMT - Comunidade de Desenvolvedores de Mato Grosso"
 theme = "HugoMDL"
@@ -11,7 +11,7 @@ MetaDataFormat = "yaml"
     name = "DevMT"
     description = "Comunidade de Desenvolvedores de Mato Grosso" #meta description
     image = "/images/avatar-192x210.png" #for frontpage profile card
-    website = "devmt.com"
+    website = "devmt.com.br"
     email = "devmt@gmail.com"
     twitter = "https://twitter.com/devmatogrosso/"
     github = "https://github.com/devmatogrosso/"
