@@ -16,6 +16,6 @@ MetaDataFormat = "yaml"
     twitter = "https://twitter.com/devmatogrosso/"
     github = "https://github.com/devmatogrosso/"
     facebook = "https://facebook.com/devmatogrosso/"
-    slack = "http://devmt.herokuapp.com"
+    slack = "http://slack.devmt.com.br"
     copyrightyear = "2016"
     frontpageposts = 6 #number of post cards to display on frontpage
