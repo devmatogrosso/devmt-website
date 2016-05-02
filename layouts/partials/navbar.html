@@ -2,13 +2,13 @@
     <header class="mdl-layout__header mdl-layout__header--transparent mdl-layout__header--scroll">
         <div class="mdl-layout__header-row">
             <!-- Add spacer, to align navigation to the right -->
-            <div class="mdl-layout-spacer"></div>            
+            <div class="mdl-layout-spacer"></div>
             <!-- Navigation -->
             <nav class="mdl-navigation">
                 <a class='mdl-navigation__link {{if .IsNode}}{{if eq (relURL .URL) ("/" | safeHTML)}}active{{end}}{{end}}' href="/">Inicio</a>
+                <a class='mdl-navigation__link {{if .IsNode}}{{if eq (relURL .URL) ("/post/" | safeHTML)}}active{{end}}{{end}}' href="/post">Artigos</a>
                 <a class='mdl-navigation__link {{if .IsNode}}{{if eq (relURL .URL) ("/event/" | safeHTML)}}active{{end}}{{end}}' href="/event">Eventos</a>
                 <a class='mdl-navigation__link {{if .IsNode}}{{if eq (relURL .URL) ("/meetup/" | safeHTML)}}active{{end}}{{end}}' href="/meetup">Meetups</a>
-                <a class='mdl-navigation__link {{if .IsNode}}{{if eq (relURL .URL) ("/post/" | safeHTML)}}active{{end}}{{end}}' href="/post">Artigos</a>
                 <a class='mdl-navigation__link {{if .IsPage}}{{if eq (relURL .Permalink) ("/support/" | safeHTML)}}active{{end}}{{end}}' href="/support">Patrocinio</a>
                 <a class='mdl-navigation__link {{if .IsPage}}{{if eq (relURL .Permalink) ("/about/" | safeHTML)}}active{{end}}{{end}}' href="/about">Sobre</a>
             </nav>
@@ -17,9 +17,9 @@
     <div class="mdl-layout__drawer">
         <nav class="mdl-navigation">
             <a class='mdl-navigation__link {{if .IsNode}}{{if eq (relURL .URL) ("/" | safeHTML)}}active{{end}}{{end}}' href="/">Inicio</a>
+            <a class='mdl-navigation__link {{if .IsNode}}{{if eq (relURL .URL) ("/post/" | safeHTML)}}active{{end}}{{end}}' href="/post">Artigos</a>
             <a class='mdl-navigation__link {{if .IsNode}}{{if eq (relURL .URL) ("/event/" | safeHTML)}}active{{end}}{{end}}' href="/event">Eventos</a>
             <a class='mdl-navigation__link {{if .IsNode}}{{if eq (relURL .URL) ("/meetup/" | safeHTML)}}active{{end}}{{end}}' href="/meetup">Meetups</a>
-            <a class='mdl-navigation__link {{if .IsNode}}{{if eq (relURL .URL) ("/post/" | safeHTML)}}active{{end}}{{end}}' href="/post">Artigos</a>
             <a class='mdl-navigation__link {{if .IsPage}}{{if eq (relURL .Permalink) ("/support/" | safeHTML)}}active{{end}}{{end}}' href="/support">Patrocinio</a>
             <a class='mdl-navigation__link {{if .IsPage}}{{if eq (relURL .Permalink) ("/about/" | safeHTML)}}active{{end}}{{end}}' href="/about">Sobre</a>
         </nav>
