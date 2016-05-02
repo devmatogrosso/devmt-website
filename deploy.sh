@@ -11,7 +11,7 @@ cd public
 git add -A
 
 # Commit changes.
-msg="rebuilding site `date`"
+msg="[chore] Build and deploy site on `date`"
 if [ $# -eq 1 ]
   then msg="$1"
 fi
