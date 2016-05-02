@@ -1,22 +1,19 @@
-<!--
-<a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-mini-footer--social-btn social-btn" href="mailto:{{ .Site.Params.email }}?subject=Hi">
-    <i class="material-icons_lg icon ion-email"></i>
-    <span class="visuallyhidden">Email</span>
-</a>
--->
-<a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-mini-footer--social-btn social-btn" href="{{ .Site.Params.slack }}">
-    <i class="material-icons_lg icon ion-heroku"></i>
+<a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-mini-footer--social-btn social-btn" href="{{ .Site.Params.slack }}" target="_blank">
+    <i class="material-icons_lg icon">
+      <img src="/images/slack.png" style="height: 100%;
+width: 100%;">
+    </i>
     <span class="visuallyhidden">Slack</span>
 </a>
-<a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-mini-footer--social-btn social-btn" href="{{ .Site.Params.facebook }}">
+<a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-mini-footer--social-btn social-btn" href="{{ .Site.Params.facebook }}" target="_blank">
     <i class="material-icons_lg icon ion-social-facebook"></i>
     <span class="visuallyhidden">Facebook</span>
 </a>
-<a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-mini-footer--social-btn social-btn" href="{{ .Site.Params.github }}">
+<a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-mini-footer--social-btn social-btn" href="{{ .Site.Params.github }}" target="_blank">
     <i class="material-icons_lg icon ion-social-github"></i>
     <span class="visuallyhidden">Github</span>
 </a>
-<a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-mini-footer--social-btn social-btn" href="{{ .Site.Params.twitter }}">
-    <i class="material-icons_lg icon ion-social-twitter "></i>                        
+<a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-mini-footer--social-btn social-btn" href="{{ .Site.Params.twitter }}" target="_blank">
+    <i class="material-icons_lg icon ion-social-twitter "></i>
     <span class="visuallyhidden">Twitter</span>
 </a>
