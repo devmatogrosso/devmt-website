@@ -1,5 +1,0 @@
-{{ partial "welcome.html" . }}
-{{ range $index, $element := first .Site.Params.frontpageposts (where .Site.Pages "Section" "post") }}     
-	{{ .Render "card-12" }}
-{{ end }}
-    

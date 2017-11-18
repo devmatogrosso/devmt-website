@@ -1,0 +1,32 @@
+
+.navbar-brand > img {
+    position: relative;
+    height: 120px;
+    margin-top: -45px;
+}
+
+.team-player > img {
+    height: 80px;
+}
+
+.team-player .title {
+    margin: 8px !important;
+    margin-bottom: -10px !important;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-brand > img {
+        position: relative;
+        height: 80px;
+        margin-top: -25px;
+    }
+
+    .title {
+        font-size: 2em;
+    }
+
+    #section-iniciativa a {
+      font-size: 10px;
+      padding: 20px 28px;
+    }
+}
