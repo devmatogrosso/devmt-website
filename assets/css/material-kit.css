@@ -2025,6 +2025,10 @@ legend {
   color: #fbb308; }
 .icon.icon-danger {
   color: #e73a2f; }
+.icon.icon-white {
+  color:#ffffff; }
+.icon.icon-black {
+  color:#000000; }
 
 .alert {
   border: 0;
